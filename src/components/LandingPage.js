@@ -70,7 +70,7 @@ function LandingPage({ setPage }) {
       backgroundSize: "contain",
       height: "120px",
       width: "100px",
-      paddingBottom: "5px",
+      paddingTop: "10px",
     };
   }
 
