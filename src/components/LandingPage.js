@@ -34,7 +34,7 @@ import CallMadeIcon from "@mui/icons-material/CallMade";
 import IconButton from "@mui/material/IconButton";
 import AppleIcon from "@mui/icons-material/Apple";
 
-function LandingPage({ setPage }) {
+function LandingPage({ setPage, isMobile }) {
   const background = {
     loginBackground1,
     loginBackground2,
@@ -84,14 +84,27 @@ function LandingPage({ setPage }) {
   return (
     <div>
       <div>
-        {[...Array(n)].map((e, i) => (
-          <img
-            src={background["loginBackground" + (i + 1)]}
-            alt="logo"
-            style={backgroundStyle("loginBackground" + (i + 1))}
-            key={i}
-          />
-        ))}
+        {[...Array(n)].map((e, i) =>
+          isMobile === true ? (
+            i > 14 ? (
+              <img
+                src={background["loginBackground" + (i + 1)]}
+                alt="logo"
+                style={backgroundStyle("loginBackground" + (i + 1))}
+                key={i}
+              />
+            ) : (
+              ""
+            )
+          ) : (
+            <img
+              src={background["loginBackground" + (i + 1)]}
+              alt="logo"
+              style={backgroundStyle("loginBackground" + (i + 1))}
+              key={i}
+            />
+          )
+        )}
       </div>
       <br />
       <div>
