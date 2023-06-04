@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dating-app/static/css/main.faa11eb9.css",
-    "main.js": "/dating-app/static/js/main.689a4240.js",
+    "main.js": "/dating-app/static/js/main.e43ffc1b.js",
     "static/js/787.ffd9c12e.chunk.js": "/dating-app/static/js/787.ffd9c12e.chunk.js",
     "static/media/25.png": "/dating-app/static/media/25.5af1c514fe55f852c2ab.png",
     "static/media/16.png": "/dating-app/static/media/16.3173f89870780be41bc2.png",
@@ -30,11 +30,11 @@
     "static/media/1.png": "/dating-app/static/media/1.60ae2b744dd27764e3f7.png",
     "index.html": "/dating-app/index.html",
     "main.faa11eb9.css.map": "/dating-app/static/css/main.faa11eb9.css.map",
-    "main.689a4240.js.map": "/dating-app/static/js/main.689a4240.js.map",
+    "main.e43ffc1b.js.map": "/dating-app/static/js/main.e43ffc1b.js.map",
     "787.ffd9c12e.chunk.js.map": "/dating-app/static/js/787.ffd9c12e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.faa11eb9.css",
-    "static/js/main.689a4240.js"
+    "static/js/main.e43ffc1b.js"
   ]
 }
